@@ -1,0 +1,362 @@
+Question 2 Code Answers
+
+Question 2: Part 1 Command Line Arguments:
+
+C:\Users\Ryan>python C:\Users\Ryan\Documents\WebScience\Assignment1_Q2.py http:/
+/www.cs.odu.edu/~mln/teaching/cs532-s16/test/pdfs.html
+
+Question 2: Part 2 Extract all Links from page:
+
+Files Extracted:
+http://twitter.com/webscidl
+http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html
+http://arxiv.org/abs/1508.02315
+http://arxiv.org/abs/1508.02315
+http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf
+http://arxiv.org/pdf/1512.06195
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf
+http://dx.doi.org/10.1007/s00799-015-0150-6
+http://arxiv.org/abs/1506.06279
+http://dx.doi.org/10.1007/s00799-015-0155-1
+http://bit.ly/1ZDatNK
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf
+http://bit.ly/jcdl-pdf
+http://dx.doi.org/10.1007/s00799-015-0140-8
+Number of Pages is: 19
+
+Question 2: Part 3 List all the links that are PDFs and byte size:
+
+PDF Files are:
+http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf
+Content-type:  application/pdf
+The byte size is:  2184076
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf
+Content-type:  application/pdf
+The byte size is:  622981
+
+http://arxiv.org/pdf/1512.06195
+Content-type:  application/pdf
+The byte size is:  1748961
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf
+Content-type:  application/pdf
+The byte size is:  4308768
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf
+Content-type:  application/pdf
+The byte size is:  1274604
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf
+Content-type:  application/pdf
+The byte size is:  639001
+
+http://bit.ly/1ZDatNK
+Content-type:  application/pdf
+The byte size is:  720476
+
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf
+Content-type:  application/pdf
+The byte size is:  1254605
+
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf
+Content-type:  application/pdf
+The byte size is:  709420
+
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf
+Content-type:  application/pdf
+The byte size is:  2350603
+
+Number of PDFs is: 10
+The response code: 200
+
+Question 2: Part 4 Example 1:
+
+C:\Users\Ryan>python C:\Users\Ryan\Documents\WebScience\Assignment1_Q2.py http:/
+/www.cs.odu.edu/~mln/teaching/cs532-s16/test/pdfs.html
+C:\Users\Ryan\Documents\WebScience\bs4\__init__.py:166: UserWarning: No parser w
+as explicitly specified, so I'm using the best available HTML parser for this sy
+stem ("html.parser"). This usually isn't a problem, but if you run this code on
+another system, or in a different virtual environment, it may use a different pa
+rser and behave differently.
+
+To get rid of this warning, change this:
+ BeautifulSoup([your markup])
+to this:
+ BeautifulSoup([your markup], "html.parser")
+  markup_type=markup_type))
+Files Extracted:
+http://twitter.com/webscidl
+http://www.dlib.org/dlib/november15/vandesompel/11vandesompel.html
+http://arxiv.org/abs/1508.02315
+http://arxiv.org/abs/1508.02315
+http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf
+http://arxiv.org/pdf/1512.06195
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf
+http://dx.doi.org/10.1007/s00799-015-0150-6
+http://arxiv.org/abs/1506.06279
+http://dx.doi.org/10.1007/s00799-015-0155-1
+http://bit.ly/1ZDatNK
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf
+http://bit.ly/jcdl-pdf
+http://dx.doi.org/10.1007/s00799-015-0140-8
+Number of Pages is: 19
+
+PDF Files are:
+http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf
+Content-type:  application/pdf
+The byte size is:  2184076
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf
+Content-type:  application/pdf
+The byte size is:  622981
+
+http://arxiv.org/pdf/1512.06195
+Content-type:  application/pdf
+The byte size is:  1748961
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf
+Content-type:  application/pdf
+The byte size is:  4308768
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf
+Content-type:  application/pdf
+The byte size is:  1274604
+
+http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf
+Content-type:  application/pdf
+The byte size is:  639001
+
+http://bit.ly/1ZDatNK
+Content-type:  application/pdf
+The byte size is:  720476
+
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf
+Content-type:  application/pdf
+The byte size is:  1254605
+
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf
+Content-type:  application/pdf
+The byte size is:  709420
+
+http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf
+Content-type:  application/pdf
+The byte size is:  2350603
+
+Number of PDFs is: 10
+The response code: 200
+
+Question 2: Part 4 Example 2:
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Ryan>python C:\Users\Ryan\Documents\WebScience\Assignment1_Q2.py http:/
+/onlinelibrary.wiley.com/doi/10.1002/cpe.710/abstract
+C:\Users\Ryan\Documents\WebScience\bs4\__init__.py:166: UserWarning: No parser w
+as explicitly specified, so I'm using the best available HTML parser for this sy
+stem ("html.parser"). This usually isn't a problem, but if you run this code on
+another system, or in a different virtual environment, it may use a different pa
+rser and behave differently.
+
+To get rid of this warning, change this:
+ BeautifulSoup([your markup])
+to this:
+ BeautifulSoup([your markup], "html.parser")
+  markup_type=markup_type))
+Files Extracted:
+http://olabout.wiley.com/WileyCDA/Section/id-813473.html
+http://olabout.wiley.com/WileyCDA/Section/id-813473.html
+http://onlinelibrary.wiley.com
+https://secure.onlinelibrary.wiley.com/secure/login/?originalUrl=http%3A%2F%2Fon
+linelibrary.wiley.com%2Fdoi%2F10.1002%2Fcpe.710%2Fabstract%3Fwol1URL%3D%2Fdoi%2F
+10.1002%2Fcpe.710%2Fabstract%26wol1URL%3D%2Fdoi%2F10.1002%2Fcpe.710%2Fabstract%2
+6regionCode%3DUS-VA%26identityKey%3Da301b900-abf2-4f75-98ed-02487f757315&wolSess
+ionId=14751d0a1d4e4d7b831aec38d518c408
+http://wiley.grapeshot.co.uk/main/redirect.cgi?target=http://ad.uk.doubleclick.n
+et/jump/wly.compu.sci_000038/concurrency-computation_CPE;gs_cat=GS_CHANNELS;tile
+=1;pos=1;sz=728x90;doi=101002cpe710;ord=64224447?
+http://onlinelibrary.wiley.com/wol1/doi/10.1002/cpe.710/abstract
+http://wiley.grapeshot.co.uk/main/redirect.cgi?target=http://ad.uk.doubleclick.n
+et/jump/wly.compu.sci_000038/concurrency-computation_CPE;gs_cat=GS_CHANNELS;tile
+=2;pos=1;sz=160x600,160x320,160x160,120x600;doi=101002cpe710;ord=115360728?
+http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-0634
+http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1532-0634
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.v14:13/15/issuetoc
+http://onlinelibrary.wiley.com/enhanced/doi/10.1002/cpe.685
+http://onlinelibrary.wiley.com/enhanced/doi/10.1002/cpe.673
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.v14:13/15/issuetoc
+http://onlinelibrary.wiley.com/advanced/search/results?searchRowCriteria%5B0%5D.
+fieldName=author&start=1&resultsPerPage=20&searchRowCriteria%5B0%5D.queryString=
+%22Rajkumar%20Buyya%22
+http://onlinelibrary.wiley.com/advanced/search/results?searchRowCriteria%5B0%5D.
+fieldName=author&start=1&resultsPerPage=20&searchRowCriteria%5B0%5D.queryString=
+%22Manzur%20Murshed%22
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.710/epdf
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.710/epdf
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.710/pdf
+http://onlinelibrary.wiley.com/enhanced/doi/10.1002/spe.2345
+http://onlinelibrary.wiley.com/resolve/reference/XREF?id=10.1007/s10723-014-9317
+-4
+http://onlinelibrary.wiley.com/enhanced/doi/10.1002/cpe.3247
+http://onlinelibrary.wiley.com/resolve/reference/XREF?id=10.1007/s10723-015-9328
+-9
+http://onlinelibrary.wiley.com/resolve/reference/XREF?id=10.1007/s10723-014-9318
+-3
+http://onlinelibrary.wiley.com/resolve/reference/XREF?id=10.1007/s11227-014-1289
+-4
+http://onlinelibrary.wiley.com/enhanced/doi/10.1002/cpe.2839
+http://onlinelibrary.wiley.com/resolve/reference/XREF?id=10.1007/s00500-015-1936
+-6
+http://onlinelibrary.wiley.com/enhanced/showAllCitations/doi/10.1002/cpe.710
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.710/pdf
+http://onlinelibrary.wiley.com/doi/10.1002/cpe.710/epdf
+http://onlinelibrary.wiley.com
+http://onlinelibrary.wiley.com/browse/publications
+http://onlinelibrary.wiley.com/browse/subjects
+http://olabout.wiley.com/WileyCDA/Section/id-390229.html
+http://journalshelp.wiley.com/
+http://olabout.wiley.com/WileyCDA/Section/id-813473.html
+http://onlinelibrary.wiley.com/privacyPolicy
+http://onlinelibrary.wiley.com/termsAndConditions
+http://olabout.wiley.com/WileyCDA/Section/id-390001.html
+http://www.wileyjobnetwork.com/
+http://olabout.wiley.com/WileyCDA/Section/id-390236.html
+http://olabout.wiley.com/WileyCDA/Section/id-390243.html
+http://onlinelibrary.wiley.com
+http://www.wiley.com
+Number of Pages is: 43
+
+PDF Files are:
+Number of PDFs is: 0
+The response code: 200
+
+Question 2: Part 4 Example 3:
+
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Ryan>python C:\Users\Ryan\Documents\WebScience\Assignment1_Q2.py https:
+//helpx.adobe.com/acrobat/kb/link-html-pdf-page-acrobat.html
+C:\Users\Ryan\Documents\WebScience\bs4\__init__.py:166: UserWarning: No parser w
+as explicitly specified, so I'm using the best available HTML parser for this sy
+stem ("html.parser"). This usually isn't a problem, but if you run this code on
+another system, or in a different virtual environment, it may use a different pa
+rser and behave differently.
+
+To get rid of this warning, change this:
+ BeautifulSoup([your markup])
+to this:
+ BeautifulSoup([your markup], "html.parser")
+  markup_type=markup_type))
+Files Extracted:
+https://www.adobe.com/creativecloud.html?promoid=KLXLR
+https://www.adobe.com/products/photoshop.html?promoid=KLXLS
+https://www.adobe.com/products/illustrator.html?promoid=KLXLT
+https://www.adobe.com/products/indesign.html?promoid=KLXLU
+https://www.adobe.com/products/premiere.html?promoid=KLXLV
+https://www.adobe.com/products/aftereffects.html?promoid=KLXLW
+https://www.adobe.com/products/photoshop-lightroom.html?promoid=KLXLX
+https://www.adobe.com/creativecloud/catalog/desktop.html?promoid=KOVFF
+https://www.adobe.com/creativecloud/business/teams.html?promoid=KQQSE
+https://www.adobe.com/creativecloud/photography.html?promoid=MLR7SH57&mv=other
+https://www.adobe.com/creativecloud/buy/students.html?promoid=MH16SLW8&mv=other
+https://acrobat.adobe.com/us/en/?promoid=KLXMA
+https://acrobat.adobe.com/us/en/acrobat.html?promoid=KSBOO
+https://stock.adobe.com/?sso_inbound=1&promoid=KSSOV&as_channel=adobe_com&as_sou
+rce=profile_menu&as_campclass=brand&as_campaign=profile_menu&ssocc=1
+https://www.adobe.com/products/digital-publishing-solution.html?promoid=KLXMC
+https://www.adobe.com/products/elements-family.html?promoid=KQQSC
+https://www.adobe.com/marketing-cloud.html?promoid=KLXLZ
+https://www.adobe.com/marketing-cloud/web-analytics.html?promoid=KOUEP
+https://www.adobe.com/marketing-cloud/data-management-platform.html?promoid=KRVU
+X
+https://www.adobe.com/marketing-cloud/campaign-management.html?promoid=KOUEQ
+https://www.adobe.com/marketing-cloud/enterprise-content-management.html?promoid
+=KOUER
+https://www.adobe.com/marketing-cloud/online-advertising-management.html?promoid
+=KOUES
+https://www.adobe.com/marketing-cloud/primetime-tv-platform.html?promoid=KOUEV
+https://www.adobe.com/marketing-cloud/online-marketing-solutions.html?promoid=KR
+VUY
+https://get.adobe.com/reader?promoid=KLXME
+https://get.adobe.com/flashplayer?promoid=KLXMF
+https://get.adobe.com/air?promoid=KLXMG
+https://get.adobe.com/shockwave?promoid=KLXMH
+https://www.adobe.com/products/catalog/software._sl_id-contentfilter_sl_catalog_
+sl_software_sl_mostpopular.html?promoid=KLXMI
+https://www.adobe.com/creativecloud.html?promoid=KLXMJ#buy
+https://creative.adobe.com/plans?promoid=KLXMK
+https://www.adobe.com/creativecloud/photography.html?promoid=KLXML
+https://www.adobe.com/creativecloud/buy/students.html?promoid=KLXMM
+https://www.adobe.com/creativecloud/business/teams.html?promoid=KLXMN
+https://www.adobe.com/creativecloud/buy/education.html?promoid=KLXMP
+https://www.adobe.com/marketing-cloud.html?promoid=KLXMQ
+https://acrobat.adobe.com/us/en/pricing/pricing.html?promoid=KLXMR
+https://stock.adobe.com/plans?sso_inbound=1&promoid=KSSOW&as_channel=adobe_com&a
+s_source=profile_menu&as_campclass=brand&as_campaign=profile_menu&ssocc=1
+https://www.adobe.com/products/digital-publishing-solution.html?promoid=KLXMT
+https://www.adobe.com/products/elements-family.html?promoid=KQQSD
+https://www.adobe.com/products/catalog/software._sl_id-contentfilter_sl_catalog_
+sl_software_sl_mostpopular.html?promoid=KLXMV
+https://helpx.adobe.com/support.html?promoid=KLXMW
+https://helpx.adobe.com/support.html?promoid=KLXNA
+https://helpx.adobe.com/learn.html?promoid=KTVIN
+https://helpx.adobe.com/learn.html?promoid=KTTAU
+https://forums.adobe.com/welcome?promoid=KLXMY
+https://forums.adobe.com/welcome?promoid=KLXNB
+https://www.adobe.com/company.html?promoid=KLXND
+https://www.adobe.com/careers.html?promoid=KLXNE
+https://www.adobe.com/investor-relations.html?promoid=KLXNF
+https://www.adobe.com/privacy.html?promoid=KLXNG
+https://www.adobe.com/security.html?promoid=KOVFG
+https://www.adobe.com/corporate-responsibility.html?promoid=KLXNH
+https://www.adobe.com/customershowcase.html?promoid=KLXNI
+https://www.adobe.com/events.html?promoid=KLXNJ
+https://www.adobe.com/company/contact.html?promoid=KLXNK
+https://www.adobe.com/news-room.html?promoid=JZEGA
+https://www.adobe.com/news-room/pressreleases/201601/011116AdobeGartnerDigitalMa
+rketingHubs.html
+https://www.adobe.com/news-room/pressreleases/201512/121415AdobeStateofContent.h
+tml
+https://www.adobe.com/news-room/pressreleases/201512/121015Q4FY2015results.html
+https://www.adobe.com/news-room/pressreleases/201512/121015AdobeAccentureAllianc
+e.html
+http://helpx.adobe.com/acrobat.html
+http://helpx.adobe.com/acrobat.html
+http://helpx.adobe.com/acrobat.html
+http://www.adobe.com/misc/terms.html
+http://partners.adobe.com/public/developer/en/acrobat/PDFOpenParameters.pdf
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+http://help.adobe.com/en_US/legalnotices/index.html
+https://www.adobe.com/go/gffooter_online_privacy_policy
+http://www.adobe.com/go/gffooter_choose_region
+http://www.adobe.com/go/gffooter_choose_region
+http://www.adobe.com/products/catalog/software.html
+http://www.adobe.com/downloads.html
+http://helpx.adobe.com/support.html
+http://www.adobe.com/company.html
+http://www.adobe.com/cis/
+http://www.adobe.com/go/gffooter_terms_of_use
+http://www.adobe.com/privacy.html
+http://www.adobe.com/privacy/cookies.html
+Number of Pages is: 79
+
+PDF Files are:
+http://partners.adobe.com/public/developer/en/acrobat/PDFOpenParameters.pdf
+Content-type:  application/pdf
+The byte size is:  157287
+
+Number of PDFs is: 1
+The response code: 200
+
