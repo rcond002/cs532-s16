@@ -1,0 +1,20 @@
+{
+  "self": "http://cd.cs.odu.edu/cd?url=http://xxlmag.com/tags/nate-dogg/",
+  "URI": "http://xxlmag.com/tags/nate-dogg/",
+  "Estimated Creation Date": "2011-04-12T00:00:00",
+  "Last Modified": "",
+  "Bitly.com": "",
+  "Topsy.com": "Topsy is out of service",
+  "Backlinks": "",
+  "Google.com": "2011-04-12T00:00:00",
+  "Archives": [
+    [
+      "Earliest",
+      ""
+    ],
+    [
+      "By_Archive",
+      {}
+    ]
+  ]
+}
