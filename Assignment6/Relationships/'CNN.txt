@@ -1,0 +1,3 @@
+CNN True NYMag
+CNN True MLS
+CNN True EA
