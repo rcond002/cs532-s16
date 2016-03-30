@@ -1,0 +1,7 @@
+R: -1.0 movie1: Solo (1996)
+R: -1.0 movie1: Gabbeh (1996)
+R: -1.0 movie1: Nico Icon (1995)
+R: -1.0 movie1: Children of the Revolution (1996)
+R: -1.0 movie1: Kicked in the Head (1997)
+R: -1.0 movie1: Gilligan's Island: The Movie (1998)
+R: -1.0 movie1: Roseanna's Grave (For Roseanna) (1997)

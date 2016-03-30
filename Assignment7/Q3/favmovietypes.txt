@@ -1,0 +1,13 @@
+action 7 adventure1
+animation 0 comedy7
+crime 7 drama13
+fantasy 0 mystery0
+thriller 1 scifi0
+war 0 western0
+
+action 3 adventure0
+animation 0 comedy9
+crime 0 drama1
+fantasy 0 mystery0
+thriller 0 scifi0
+war 0 western0
